@@ -31,15 +31,18 @@ Clone the repository:
 #### Training the Models
 1. Ensure you have the Repetition Action Counting Dataset.
 2. Run the training script for workout action recognition:
-```sh
+```python
   python train_action_recognition.py
+'''
 3. Train the RepNet model for repetition counting:
-```sh
+```python
 python train_repnet.py
+'''
 #### Running the Application
 1. Start the Gradio GUI for real-time workout tracking:
-```sh
+```python
 python app.py
+'''
 2. Upload a video from Youtube or use your webcam to identify workout types and count repetitions.
 
 ## Demo
