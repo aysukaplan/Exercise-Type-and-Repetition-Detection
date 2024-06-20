@@ -23,31 +23,31 @@ This project aims to develop a computer vision system for workout identification
 
 ### Installation
 Clone the repository:
-   ```sh
-   git clone https://github.com/username/workout-tracker.git
-   cd workout-tracker
-'''
+   ```
+   git clone https://github.com/aysukaplan/Exercise-Type-and-Repetition-Detection.git
+   cd Exercise-Type-and-Repetition-Detection
+   ```
 ### Usage
 #### Training the Models
 1. Ensure you have the Repetition Action Counting Dataset.
 2. Run the training script for workout action recognition:
 ```python
   python train_action_recognition.py
-'''
+```
 3. Train the RepNet model for repetition counting:
 ```python
 python train_repnet.py
-'''
+```
 #### Running the Application
 1. Start the Gradio GUI for real-time workout tracking:
 ```python
 python app.py
-'''
+```
 2. Upload a video from Youtube or use your webcam to identify workout types and count repetitions.
 
 ## Demo
-### Video Demo: YouTube
-### Model Weights: Google Drive
+### Video Demo:  [Youtube](https://www.youtube.com/watch?v=A-GUBdgqG-U)
+### Model Weights:  [Google Drive](https://drive.google.com/file/d/1SpzsQcu1HqlhECYaFfR7HLXJ7c2fzUtu/view?usp=sharing)
 
 ## Experimental Results
 ### Action Detection
@@ -62,12 +62,11 @@ python app.py
 The system effectively recognizes actions and counts repetitions, combining CNNs for feature extraction, LSTMs for temporal dependencies, and RepNet for repetition counting.
 Future improvements include transfer learning, better data augmentation, and optimization methods.
 ## Authors
-Ataberk Asar (2210356135)
-Aysu Aylin Kaplan (2200356810)
+Ataberk Asar (2210356135)  
+Aysu Aylin Kaplan (2200356810)  
 Department of Computer Engineering, Hacettepe University
 ## License
 This project is licensed under the MIT License.
 
 ## Acknowledgements
-RepNet
-Repetition Action Counting Dataset
+[RepNet](https://sites.google.com/view/repnet)  
